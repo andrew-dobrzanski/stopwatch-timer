@@ -1,0 +1,23 @@
+{
+  // Required
+  "name": "Project Timer",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "Stop watch timer to track time spent on any given project",
+  "icons": {
+    "128": "/images/dst-logo.png"
+  },
+
+  // Tyoe of action: Browser, Page, or none
+  "browser_action": {
+    "default_title": "Track Project Time. Stop watch timer to track time spend on any given project",
+    "default_popup": "index.html"
+  },
+
+  // intent of extension. What you will access from the user
+  "permissions": [
+    "http://*/*", "https://*/*"
+  ]
+}
